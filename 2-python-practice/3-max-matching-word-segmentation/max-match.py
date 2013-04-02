@@ -4,6 +4,18 @@ import sys
 
 def max_match_segment( line, dic ):
     # write your code here
+    ret=[]
+    last=len(line)-1 # There is a enter notation in the end of the sentence.
+    while last>0:
+        for i in range(0,last):
+            if line[i:last] in dic:
+                ret.append(line[i:last])
+                last=i
+                break
+        else:
+            return False
+    return ret
+
 
 if __name__=="__main__":
 
