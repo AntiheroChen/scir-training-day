@@ -117,6 +117,9 @@ class Hmm(object):
         """
         # First write counts for emissions
         for word, ne_tag in self.emission_counts:            
+            #if self.all_states.count(ne_tag)<5:
+                #output.write("%i WORDTAG %s %s\n" % (self.emission_counts[(word, ne_tag)], "_RARE_", word))
+            #else :
             output.write("%i WORDTAG %s %s\n" % (self.emission_counts[(word, ne_tag)], ne_tag, word))
 
 
