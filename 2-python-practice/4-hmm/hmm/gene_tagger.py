@@ -12,6 +12,10 @@ class Tagger(object):
         file_text=input_file.readlines()
         for line in file_text:
             a=line.split()
+            if len(a)<4:
+                continue
+            if a[1]!="WORDTAG":
+                continue
             if count.has_key(a[2]):
                 count[a[2]]+=int(a[0])
             else:

@@ -239,7 +239,7 @@ genome O
 polymorphisms I-GENE
 linked O
 with O
-restriction O
+restriction I-GENE
 - I-GENE
 modification O
 gene I-GENE
@@ -3764,7 +3764,7 @@ pseudotypes I-GENE
 suggesting O
 that O
 the O
-restriction O
+restriction I-GENE
 for O
 SIVmac239 I-GENE
 infection O
@@ -12063,7 +12063,7 @@ was O
 determined O
 with O
 a O
-restriction O
+restriction I-GENE
 enzyme I-GENE
 - I-GENE
 based O
@@ -12869,7 +12869,7 @@ increased O
 knowledge O
 of O
 the O
-hepatitis O
+hepatitis I-GENE
 C I-GENE
 virus I-GENE
 , O
@@ -14259,7 +14259,7 @@ mortality O
 ) O
 dietary O
 sodium O
-restriction O
+restriction I-GENE
 to O
 less O
 than O
