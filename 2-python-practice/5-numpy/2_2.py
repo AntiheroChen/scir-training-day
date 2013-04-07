@@ -5,13 +5,17 @@ import random
 import numpy
 if __name__=="__main__":
     start=timeit.default_timer()
-    a=numpy.array([random.randint(0,10000) for i in range(100) ])
-    b=numpy.array([random.randint(0,10000) for i in range(100) ])
+    n=10000000
+    m=10000
+    l=100
+    a=numpy.array([0 for i in range(n) ])
+    b=numpy.array([random.randint(0,m) for i in range(n) ])
+    for i in range(l):
+        a[random.randint(0,n)]=random.randint(1,m)
     for i in range(1000):
-        c=a*b
+            a*b
     perior=timeit.default_timer()-start
 
     print perior
-#0.00346302986145
-
+#340.0281231403351
 
