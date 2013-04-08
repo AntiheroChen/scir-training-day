@@ -12,7 +12,7 @@ if __name__=="__main__":
     b=[random.randint(0,m) for i in range(n) ]
     for i in range(l):
         a[random.randint(0,n)]=random.randint(1,m)
-    for i in range(n):
+    for i in range(m):
         for j in range(n):
             a[j]*b[j]
     perior=timeit.default_timer()-start
